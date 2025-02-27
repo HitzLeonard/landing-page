@@ -40,8 +40,6 @@ a {
     flex-direction: column;
     max-width: 400px;
     height: 200px;
-    display: flex;
-
 }
 
 .card1 {
@@ -77,3 +75,59 @@ img {
     
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    width: 700px;
+    height: auto;
+}
+
+div.box {
+    display: flex;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+    gap: 20px;
+
+}
+
+.box img {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.box .illistartion {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.caption {
+    display: block;
+    width: 100px;
+}
+
+.quote {
+    background-color: lightgray;
+    padding: 50px;
+    margin: 25px 0;
+}
+
+blockquote {
+    display: flex;
+    justify-content: end;
+}
